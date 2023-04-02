@@ -60,7 +60,7 @@ body {
 /* =================== Hero section ============================ */
 
 .hero-section {
-  background-image: url('./images/heroimage.avif');
+  background-image: url('./images/4.avif');
   height: 70vh;
   background-size: cover;
   display: flex;
@@ -129,6 +129,7 @@ article .button {
 
 .article-image {
   max-width: 200px;
+  max-height: 450px;
 }
 
 .title {
@@ -206,4 +207,58 @@ article .button {
   display: flex;
   justify-content: center;
   padding: 30px 30px;
+}
+
+/* ==========MEDIA QUERY========== */
+
+/* pads width is 600->992*/
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .articles,
+  .side-links {
+    width: 100%;
+  }
+
+  .side-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .country,
+  .date {
+    width: 50%;
+  }
+
+  .country {
+    margin-bottom: 0;
+  }
+}
+
+/* mobile width is below 600px */
+/* 0< width <600px */
+@media (max-width: 600px) {
+  article {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .article-image {
+    max-width: 100%;
+  }
+
+  article .button {
+    width: 100%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
 }

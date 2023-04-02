@@ -1,0 +1,140 @@
+:root {
+  --primary: indigo;
+}
+
+body {
+  margin: 0;
+}
+
+.button {
+  background: var(--primary);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* ==========================  GLOBAL MESSAGE SECTION ========================= */
+.heading1 {
+  background: var(--primary);
+  padding: 20px;
+  color: white;
+}
+
+.welcome {
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header nav */
+
+.heading2 {
+  background-color: grey;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo {
+  align-self: center;
+}
+
+.nav-options ul li {
+  list-style: none;
+  display: inline;
+}
+
+/* =================== Hero section ============================ */
+
+.hero-section {
+  background-image: url('./images/heroimage.avif');
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  text: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  font-size: 30px;
+  color: white;
+  background-color: var(--primary);
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+}
+.hero-text hr {
+  width: 100%;
+}
+
+.hello {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 20px;
+}
+
+/* =================Latest post section ================ */
+
+h2 {
+  color: var(--primary);
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.articles {
+  width: 66%;
+}
+
+.side-links {
+  width: 34%;
+}
+
+article {
+  display: flex;
+  gap: 1rem;
+}
+
+.article-image {
+  max-width: 200px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary);
+  padding-bottom: 1rem;
+}
+
+/* ==========footer========== */
+.footer {
+  background: var(--primary);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+  margin-top: 1rem;
+}

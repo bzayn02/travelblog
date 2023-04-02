@@ -145,14 +145,40 @@ article .button {
   padding: 1rem;
   border-radius: 10px;
   margin-bottom: 1.5rem;
+  box-shadow: -5px 5px 10px 5px rgba(75, 0, 130, 0.4);
 }
 
 .date {
   background: grey;
   padding: 1rem;
   border-radius: 10px;
+  box-shadow: -5px 5px 10px 5px rgba(75, 0, 130, 0.4);
 }
 
+/* ============Recommendation section=========== */
+
+.recommendation {
+  background: grey;
+  padding: 2rem 0rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  width: 180px;
+  flex-grow: 1;
+  box-shadow: -5px 5px 10px 5px rgba(75, 0, 130, 0.4);
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
 /* ==========footer========== */
 .footer {
   background: var(--primary);
@@ -160,5 +186,4 @@ article .button {
   display: flex;
   justify-content: center;
   padding: 30px 30px;
-  margin-top: 1rem;
 }

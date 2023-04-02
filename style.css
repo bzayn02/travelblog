@@ -117,7 +117,7 @@ h2 {
 article {
   display: flex;
   gap: 1rem;
-  box-shadow: -5px 5px 10px 5px grey;
+  box-shadow: -5px 5px 10px 5px rgba(75, 0, 130, 0.4);
   padding: 1.5rem 1rem;
   border-radius: 10px;
   margin-bottom: 1.5rem;
@@ -171,6 +171,11 @@ article .button {
   box-shadow: -5px 5px 10px 5px rgba(75, 0, 130, 0.4);
 }
 
+.card button {
+  text-align: center;
+  width: 100%;
+}
+
 .card-list {
   display: flex;
   flex-wrap: wrap;
@@ -179,6 +184,21 @@ article .button {
 .card img {
   border-radius: 10px 10px 0 0;
 }
+
+/* ========subscription======= */
+.subs {
+  padding: 0.8rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subs input {
+  line-height: 1.5rem;
+  border-radius: 5px;
+  padding: 3px;
+}
+
 /* ==========footer========== */
 .footer {
   background: var(--primary);
